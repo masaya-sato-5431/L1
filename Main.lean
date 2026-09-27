@@ -1,4 +1,6 @@
 import L1
 
+def message : String := s!"Hello, {hello}!!"
+
 def main : IO Unit :=
-  IO.println s!"Hello, {hello}!"
+  IO.println message
